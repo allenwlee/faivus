@@ -1,13 +1,15 @@
 $font-sam: 'Indie Flower', cursive;
 $font-dabi: 'Bangers', cursive;
 
-.sam {
+.body-sam {
   font-family: $font-sam;
+}
+
+.sam {
   font-size: 33vw;
 }
 
-.sam-small {
-  font-family: $font-sam;
+.sam-small {  
   font-size: 10vw; 
 }
 
@@ -24,3 +26,4 @@ $font-dabi: 'Bangers', cursive;
   -moz-border-radius: 150px;
   background: url('/assets/sam.jpg') no-repeat;
   }
+
