@@ -22,6 +22,13 @@ $font-dabi-size: 9em;
   font-size: $font-dabi-size;
 }
 
+.dabi-small {
+  font-family: $font-dabi;
+  font-size: $font-dabi-size * 0.25;
+}
+
+
+
 .sam-image {
   width: 300px;
   height: 300px;

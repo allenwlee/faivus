@@ -1,1 +1,8 @@
 .dabi dabi
+%ul
+	- (1..5).each do |i|
+		%li.button 
+			= link_to "#{i}", "/dabi/#{i}" 
+
+= surround 'back to ', '' do
+	= link_to 'faivus', root_path
