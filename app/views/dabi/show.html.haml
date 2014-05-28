@@ -1,8 +1,9 @@
 .dabi dabi
-%ul
+.row
 	- (1..5).each do |i|
-		%li.button 
+		.large-2.columns.dabi
 			= link_to "#{i}", "/dabi/#{i}" 
-
-= surround 'back to ', '' do
-	= link_to 'faivus', root_path
+.row
+	.large-4.large-offset-4.columns.text-center
+		= surround 'back to ', '' do
+			= link_to 'faivus', root_path
