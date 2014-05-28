@@ -1,22 +1,25 @@
 $font-sam: 'Indie Flower', cursive;
 $font-dabi: 'Bangers', cursive;
 $font-sam-size: 9em;
+$font-dabi-size: 9em;
 
 .body-sam {
   font-family: $font-sam;
 }
 
 .sam {
+  font-family: $font-sam;
   font-size: $font-sam_size;
 }
 
 .sam-small {  
+  font-family: $font-sam;
   font-size: $font-sam_size * 0.25;
 }
 
 .dabi {
   font-family: $font-dabi;
-  font-size: 33vw;
+  font-size: $font-dabi-size;
 }
 
 .sam-image {
@@ -30,6 +33,12 @@ $font-sam-size: 9em;
 
 .quote {
   text-align: left;
-  padding: 1em 5em 0 5em;
+  padding: 5em 5em 0 5em;
   font-family: 'Open Sans';
+}
+
+.author {
+  text-align: left;
+  padding: 0em 5em 0 5em;
+  font-family: 'Open Sans'; 
 }

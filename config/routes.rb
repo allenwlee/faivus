@@ -4,7 +4,7 @@ Faivus::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
 root 'faivus#index'
-get '/:page' => 'sam#page'
+get '/sam/:page' => 'sam#page'
 
 resources :dabi
 resources :sam
