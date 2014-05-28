@@ -1,5 +1,6 @@
 class DabiController < ApplicationController
-	def show
+	def index
+		render 'show'
 	end
 
 	def page
