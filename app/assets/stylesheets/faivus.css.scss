@@ -12,7 +12,7 @@ $font-dabi-size: 9em;
   font-size: $font-sam_size;
 }
 
-.sam-small {  
+.sam-small {
   font-family: $font-sam;
   font-size: $font-sam_size * 0.25;
 }
@@ -27,7 +27,9 @@ $font-dabi-size: 9em;
   font-size: $font-dabi-size * 0.25;
 }
 
-
+.bigtype {
+  font-size: $font-dabi-size * 0.25;
+}
 
 .sam-image {
   width: 300px;
@@ -47,5 +49,5 @@ $font-dabi-size: 9em;
 .author {
   text-align: left;
   padding: 0em 5em 0 5em;
-  font-family: 'Open Sans'; 
+  font-family: 'Open Sans';
 }
